@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 * {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -15,13 +17,27 @@ main {
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
 }
 
+header {
+    text-align: center;
+}
+
 h1 {
     color: darkblue;
-    text-align: center;
 }
 
 h2 {
     color: darkred;
+}
+
+article {
+    overflow: auto;
+    margin-bottom: 20px;
+}
+
+img.lado {
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 
 p {
